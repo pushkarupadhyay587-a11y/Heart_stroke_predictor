@@ -7,7 +7,7 @@ scaler = joblib.load('Scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
 
 
-st.title("Heart Stroke Prediction ❤️")
+st.title("Heart Stroke Risk Prediction ❤️")
 st.markdown("Provide the following details to check your heart stroke risk:")
 
 # Collect user input
